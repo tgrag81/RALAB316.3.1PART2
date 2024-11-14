@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #4a4e4d;
+  --top-menu-bg: #0e9aa7;
+  --sub-menu-bg: #3da4ab;
+}
+
+body {
+  color: #fff;
+  grid-template-rows: 3rem auto;
+  height: 100vh;
+  margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  display: grid;
+}
+
+.flex-ctr {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.flex-around {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 1rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+#top-menu a:hover {
+  background-color: var(--sub-menu-bg);
+}
+/*# sourceMappingURL=index.4d663569.css.map */
